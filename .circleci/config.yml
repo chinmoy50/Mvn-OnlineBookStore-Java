@@ -25,5 +25,5 @@ workflows:
   build-and-test:
     jobs:
       - test-java
-        context:
+          context:
             - BLACKDUCK
