@@ -2,7 +2,7 @@ name: Java CI with Maven and Docker Deployment
 
 on:
   push:
-    branches: [ "main" ]  # or change to your default branch
+    branches: [ "veedhi" ]  # or change to your default branch
 
 jobs:
   build-and-deploy:
@@ -35,4 +35,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: your-dockerhub-username/your-image-name:latest
+        tags: veedhi1995/onlinestorevolume1:latest
