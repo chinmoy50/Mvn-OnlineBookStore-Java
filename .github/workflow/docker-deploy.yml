@@ -2,7 +2,7 @@ name: Java CI with Maven and Docker Deployment
 
 on:
   push:
-    branches: [ "veedhi" ]  # or change to your default branch
+    branches: [ "master" ]  # or change to your default branch
 
 jobs:
   build-and-deploy:
