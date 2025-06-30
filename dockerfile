@@ -1,7 +1,7 @@
 FROM  tomcat:latest   
 # set env variables
 ENV CATALINA_HOME /usr/local/tomcat
-ENV APP_NAME onlinebookstore
+ENV APP_NAME onlinebookstorevoume1
 #copy the war file to webappsdirectory
 COPY target/${APP_NAME}.war   ${CATALINA_HOME}/webapps/
 #Expose port
