@@ -45,7 +45,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.2.1</version>
 				<configuration>
-					<warSourceDirectory>WebContent</warSourceDirectory>
+					<warSourceDirectory>WebContent well come to online traning in aws devops </warSourceDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
